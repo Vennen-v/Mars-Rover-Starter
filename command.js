@@ -9,6 +9,6 @@ class Command {
   }
 }
 
-const hello = new Command("MOVE", "GUN");
+const hello = new Command("cheese");
 
 module.exports = Command;
