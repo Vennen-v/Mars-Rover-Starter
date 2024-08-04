@@ -14,8 +14,6 @@ let commands = [
   new Command("MODE_CHANGE", "LOW_POWER"),
   new Command("STATUS_CHECK"),
 ];
-let message = new Message(commands);
+let message = new Message("Test message with two commands", commands);
 
-console.log(message);
-console.log(Array.isArray(commands));
 module.exports = Message;

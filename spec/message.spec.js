@@ -33,6 +33,6 @@ describe("Message class", function () {
       "We are testing the name constructor",
       testCommands2
     );
-    expect(Array.isArray(test2.commands)).toBe(true);
+    expect(Array.isArray(test2.commands)).toBeTruthy();
   });
 });
